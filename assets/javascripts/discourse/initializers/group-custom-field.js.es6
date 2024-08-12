@@ -7,7 +7,7 @@ export default {
       api.modifyClass('model:group', {
         // The custom_fields attribute is initialzed as an empty object on the
         // group model so we can add to it in the template.
-        // i.e we're using custom_fields.my_field in connectors/group-edit/field-container.hbs
+        // i.e we're using custom_fields.rwm_password in connectors/group-edit/field-container.hbs
         custom_fields: {},
         
         // STEP 2 //

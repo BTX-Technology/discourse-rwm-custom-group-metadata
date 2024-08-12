@@ -11,7 +11,7 @@ after_initialize do
   ## STEP 3 - Controllers and whitelisting ##
   ## Adds custom field to strong parameter lists (allows it down to the server)
   ## This is a new hook that has been added to make it easier to add group custom fields
-  DiscoursePluginRegistry.register_editable_group_custom_field(:my_field, self)
+  DiscoursePluginRegistry.register_editable_group_custom_field(:rwm_password, self)
   
   ## STEP 4 - Saving the data ##
   ## In this case the same process that saves normal Discourse data will take care 
@@ -24,7 +24,7 @@ after_initialize do
   ## for 3 data types in custom_fields: string (default); boolean and json. You can tell the system
   ## that handles custom fields to cast a particular field as one of the three types by using a
   ## server side plugin api helper method
-  register_group_custom_field_type('my_field', :boolean)
+  register_group_custom_field_type('rwm_password', :string)
   
   
   ## STEP 6 - Serialization ##

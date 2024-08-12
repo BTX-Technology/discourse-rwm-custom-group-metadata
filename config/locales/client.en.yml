@@ -2,6 +2,6 @@ en:
   admin_js:
     admin:
       groups:
-        my_field:
-          label: "My field"
+        rwm_password:
+          label: "Race with Mates Password"
       
