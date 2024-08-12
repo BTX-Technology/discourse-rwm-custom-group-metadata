@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 # name: discourse-education-group-custom-fields
-# about: Education example: Add a custom field to a group
+# about: BTX Race with Mates Password Custom Field
 # version: 0.1
-# authors: Angus McLeod
-# url: https://github.com/paviliondev/discourse-education-group-custom-fields
+# authors: Angus McLeod - modified by Victa
+# url: https://github.com/BTX-Technology/discourse-rwm-custom-group-metadata
 
 after_initialize do
   
